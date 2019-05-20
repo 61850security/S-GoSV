@@ -45,6 +45,7 @@ Run the ifconfig command at terminal to know the MAC address as well as interfac
             #./EtM_recv
 
 
+
 B.1. EandM_send.c:
 
 EandM_send.c program constructs an ethernet frame with all required fields of the frame such as destination address, source address, ether type followed by GOOSE (Generic Object-Oriented Substation Event) Protocol Data Unit (PDU) fields. The PDU fields includes APPID (Application ID), Length of PDU, Reserved1, Reserved2, GOOSE Application Protocol Data Unit (APDU) fields followed by Frame Check Sequence (FCS) field. Reserved1 field consists of the length of extension field if the frame is protected with digital signature algorithm. Reserved2 field holds Cyclic Redundancy Check (CRC) value. GOOSE APDU consists of fields in Tag-Length-Value (TLV) format. 
@@ -86,6 +87,7 @@ Run the ifconfig command at terminal to know the MAC address as well as interfac
             <enter password>
             #gcc -o EandM_recv EandM_recv.c -L usr/local/bin -lssl -lcrypto  
             #./EandM_recv
+
 
 
 C.1. MtE_send.c:
