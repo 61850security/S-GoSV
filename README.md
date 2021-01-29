@@ -1,8 +1,8 @@
 # S-GoSV
 
 # Update Status
-We are in the process of updating the current S-GoSV-part-2 framework with addtional security mechanisms and document the frameowrk as journal paper.
-We hope to release update S-GoSV-part-2 frameork sometime during 2021.
+We are in the process of updating the current S-GoSV-part-2 framework with addtional security mechanisms and document the updated framework as journal paper.
+We hope to release update S-GoSV-part-2 framework sometime during 2021.
 
 # Instructions for running S-GoSV with AEAD varients:
 
