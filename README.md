@@ -1,6 +1,10 @@
 # S-GoSV
 
-Instructions for running S-GoSV with AEAD varients:
+# Update Status
+We are in the process of updating the current S-GoSV-part-2 framework with addtional security mechanisms and docuemnt the frameowrk as journal paper.
+We hope to release update S-GoSV-part-2 frameork sometime during 2021.
+
+# Instructions for running S-GoSV with AEAD varients:
 
 A.1. EtM_send.c:
 
